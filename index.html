@@ -1,0 +1,270 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta name="author" content="Tyler Gore">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=0.28">
+    <title>GoreSync</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+  
+</head>
+<style>
+.banner {
+  background-color:rgb(31, 15, 83);
+  color: #FFDB99;
+  padding: 0px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  text-align: left;
+}
+
+.banner h1 {
+  font-size: 32px;
+  margin: 0px;
+}
+
+.banner p {
+  font-size: 18px;
+}
+.image-container {
+  position: relative;
+  right: 370px;
+  height: 150px;
+  width: 250px;
+}
+
+.text-container {
+  position: relative;
+  right: 90px;
+}
+
+nav {
+  background-color: rgb(31, 15, 83);
+  padding: 10px; 
+}
+
+nav ul {
+  list-style-type: none; /* Remove the default list styles */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block; /* Display the list items horizontally */
+  margin-right: 10px; /* Add some spacing between the list items */
+}
+
+nav ul li button {
+  background-color:rgb(31, 15, 83) ;
+  text-decoration: none; /* Remove the underline */
+  color:  #FFDB99; /* Set the link color */
+  padding: 10px 15px; /* Add some padding */
+  border: none;
+  outline: none;
+}
+
+nav ul li button:hover {
+  background-color: #FFDB99; /* Change the background color on hover */
+  color: rgb(31, 15, 83); /* Change the text color on hover */
+  border: none;
+  outline: none;
+}
+
+nav ul li a:hover {
+  background-color: #FFDB99; /* Change the background color on hover */
+  color: rgb(31, 15, 83); /* Change the text color on hover */
+  border: none;
+  outline: none;
+}
+
+nav ul li a {
+  background-color:rgb(31, 15, 83) ;
+  text-decoration: none; /* Remove the underline */
+  color:  #FFDB99; /* Set the link color */
+  padding: 10px 15px; /* Add some padding */
+  border: none;
+  outline: none;
+}
+
+#navbar {
+  padding: 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.container {
+  position: relative;
+}
+
+.background-image {
+  position: relative;
+  z-index: 1;
+  height: 800px;
+  width: 100%;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 200px;
+  left: 290px;
+  z-index: 2;
+  width: 600px;
+  height: 600px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 320px;
+  left: 600px;
+  z-index: 3;
+  width: 35px;
+  height: 35px;
+  font-family: 'Cinzel', serif;
+  font-family: 'Delicious Handrawn', cursive;
+  font-family: 'Rye', cursive;
+  font-size: xx-large;
+}
+
+.pprlogo {
+  position: absolute;
+  top: 350px;
+  left: 350px;
+  z-index: 3;
+  width: 200px;
+  height: 200px;
+}
+
+.rnsssbbq {
+  height: 700px; 
+  width: 1300px; 
+  padding: 30px 30px 30px 30px; 
+  align-items: center; 
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+</style>
+<body>
+
+<!--Top Banner-->
+
+<div>
+  <h1 class="banner">
+   <div>  
+     <img id="home" class="image-container" src="C:\Users\tyler\Downloads\goresync-high-resolution-color-logo.png" alt="logo">
+   </div>   
+    <div class="text-container"> 
+     Hello, welcome to GoreSync!
+    </div> 
+  </h1>
+</div>
+
+<!--Navigation Bar-->
+
+<nav id="navbar">
+  <ul>
+    <li><button onclick="scrollToHome()">Home</button></li>
+    <li><button onclick="scrollToAbout()">About</button></li>
+    <li><button onclick="scrollToWork()">My Work</button></li>
+    <li><button><a href="file:///C:/Users/tyler/OneDrive/Documents/index.html/sign%20in.html">Contact</a></button></li>
+  </ul>
+</nav>
+
+<!--desk and notebook image-->
+
+<h2>
+  <div class="container">
+  <img class="background-image" src="https://img.freepik.com/premium-photo/office-dark-desk-table-workspace-with-computer-office-supplies-coffee-mug_67155-320.jpg" alt="coffee bar">
+  <img class="overlay-image" src="C:\Users\tyler\Downloads\pngwing.com (1).png" alt="notebook">
+  <img class="pprlogo" src="C:\Users\tyler\Downloads\goresync-website-favicon-black.png" alt="logo">
+  <p class="text-overlay">Hire an Independent Software Developer?</p>
+  </div>
+  
+  <!--about me section-->
+  
+  <div id="about" style="font-style: italic; font-size: xx-large; padding: 20px 30px 20px;">
+About Me
+</div>
+</h2>
+<h3>
+  <img style="height: 450px; width: 300px; float: left; padding-right: 20px;" src="C:\Users\tyler\OneDrive\Pictures\IMG_7862.JPG" alt="image of me">
+   <div style="font-size: x-large;">  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello, my name is Tyler Gore, and I am a proficient independent software developer and an accomplished EMT. Shortly 
+  after graduating from high school, I pursued EMT training at VoTech. During my studies, I concurrently held a position
+  as a gymnastics coach and selflessly volunteered as a firefighter. <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   After completing EMT school, I secured a position
+  as an EMT and served in this capacity for two years before meeting my significant other. We subsequently tied the knot
+  within a year and expeditiously relocated to Texas. It was during this time that I discovered my passion for software
+  development and commenced my online learning journey under the guidance of seasoned software engineers.<br><br> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <div id="work"> While in the process of obtaining my Texas state EMS license, I began my career at Amazon as a driver. Upon successfully
+  receiving my Texas EMS license, I returned to the EMS field and worked as an EMT while also collaborating on software projects
+  for my personal clientele. I remain committed to both software development and the EMS industry, and continue to find
+  fulfillment in both arenas. To this day I have multiple websites, and clients of my own of which I built and manage websites. 
+  You can see all my work under the &quot; My Work &quot; tab. </div>
+   </div>
+</h3>
+
+<!--My Work section-->
+<div>
+  <h3 style="font-size: xx-large; font-style: italic; padding: 20px 30px 20px;">
+  My Work
+  </h3>
+</div>
+<div style="font-size: x-large; font-weight: bolder;">
+  <a href="https://rnsssbbq.com/"><img style="height: 250px; width: 250px; float: left;" src="C:\Users\tyler\Downloads\transparent-logo (1).png" alt="rnlogo"></a>
+  Satisfy your BBQ cravings with our mouthwatering offerings at R&N Smokin Sweet Savor BBQ! A company embodies the art of smoky flavors. 
+  Immerse yourself in a world of slow-cooked perfection, where tender ribs, juicy pulled pork, and succulent brisket 
+  take center stage. Our menu showcases both classic favorites and innovative creations that push the boundaries of BBQ. 
+  Whether you're hosting an event or catering for your own home, their BBQ delivers an unforgettable culinary experience. 
+  Additionally, R&N specializes in catering services, bringing the irresistible taste of BBQ to your special occasions. 
+  From corporate events to family gatherings, our expert team ensures that every bite is a delight. Discover the essence 
+  of true BBQ craftsmanship and let us cater to your cravings with our delectable offerings.
+
+</div>
+
+
+</body>
+<script>
+
+//sticky navigaton bar
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+window.addEventListener("scroll", function() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+});
+
+//scroll feature
+
+function scrollToAbout() {
+  var element = document.getElementById("about");
+  element.scrollIntoView({ behavior: "smooth" });
+}
+
+function scrollToHome() {
+  var element = document.getElementById("home");
+  element.scrollIntoView({ behavior: "smooth" });
+}
+
+function scrollToWork() {
+  var element = document.getElementById("work");
+  element.scrollIntoView({ behavior: "smooth" });
+}
+
+</script>
+</html>
+</DOCTYPE>
