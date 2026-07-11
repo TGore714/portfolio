@@ -405,13 +405,10 @@ box-shadow:0 20px 40px rgba(0,0,0,.3);
 
 
 .video-wrapper {
-    width: 100%;
-    max-width: 320px;
     aspect-ratio: 9 / 16;
-    margin: 0 auto;
-    background: #000;
+    max-width: 320px;
+    margin: auto;
     overflow: hidden;
-    border-radius: 18px;
 }
 
 .video-wrapper video {
