@@ -405,11 +405,20 @@ box-shadow:0 20px 40px rgba(0,0,0,.3);
 
 
 .video-wrapper {
+    position: relative;
     aspect-ratio: 9 / 16;
-    max-width: 320px;
-    margin: auto;
     overflow: hidden;
+    background: black;
 }
+
+
+.video-thumbnail {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .video-wrapper video {
     width: 100%;
